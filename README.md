@@ -47,3 +47,7 @@ VITE_HF_API_KEY=your_hugging_face_api_key_here
 ```bash
 npm run dev
 ```
+
+### 5. Screenshot
+
+![Chef CLaude SS](image.png)
