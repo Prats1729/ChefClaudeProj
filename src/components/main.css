@@ -23,6 +23,18 @@ main {
   border: solid;
   border-width: 1px;
   border-color: #d1d5db;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-form input:focus {
+  outline: none;
+  transform: scale(1.03);
+
+}
+
+.main-form input:hover{
+    transform: scale(1.03);
+
 }
 
 .main-form input::placeholder {
@@ -39,7 +51,15 @@ main {
   box-sizing: border-box;
   border-width: 1px;
   border-color: #d1d5db;
+  transition: all 0.2s ease-in-out;
 }
+
+.main-form button:hover {
+  transform: scale(1.03);
+  background-color: rgb(83, 83, 83);
+}
+
+
 
 main {
   padding-top: 70px;
@@ -67,4 +87,43 @@ main {
 
 .ingredient-list li {
     margin-bottom: 12px;
+}
+
+.get-recipe-card{
+    width: 594px;
+    background-color: #F0EFEB;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.get-recipe-card h3 {
+    font-size: 1.3rem;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.get-recipe-card span{
+    padding-left: 40px;
+    color: #6B7280;
+}
+
+.get-recipe-card button{
+    width: 115px;
+    height: 38px;
+    padding: 9px 17px 9px 17px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #D17557;
+    transition: all 0.2s ease-in-out;
+}
+
+.get-recipe-card button:hover {
+    transform: scale(1.03);
 }
