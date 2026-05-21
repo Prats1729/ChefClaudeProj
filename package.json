@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://prats1729.github.io/ChefClaudeProj",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +14,9 @@
     "@huggingface/inference": "^4.13.18",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
