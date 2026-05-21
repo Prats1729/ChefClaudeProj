@@ -1,16 +1,49 @@
-# React + Vite
+# Chef Claude 👨‍🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chef Claude is a React application that helps you figure out what to cook! Simply add a list of ingredients you currently have in your kitchen, and Chef Claude will use AI to suggest a delicious recipe you can make.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Add Ingredients:** Easily build a list of ingredients you have on hand.
+- **AI Recipe Generation:** Once you have at least 4 ingredients, you can ask Chef Claude for a recipe.
+- **Powered by AI:** Uses the Hugging Face Inference API (`meta-llama/Llama-3.1-8B-Instruct`) to generate creative and practical recipes.
+- **Markdown Rendering:** Recipes are beautifully formatted and rendered using Markdown.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (with Vite)
+- JavaScript (ES6+)
+- CSS3
+- @huggingface/inference (For communicating with the AI model)
+- react-markdown (For rendering the AI response)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd ChefClaudeProj
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env.local` file in the root of your project directory and add your Hugging Face API key:
+
+```env
+VITE_HF_API_KEY=your_hugging_face_api_key_here
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
