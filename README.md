@@ -9,6 +9,10 @@ Chef Claude is a React application that helps you figure out what to cook! Simpl
 - **Powered by AI:** Uses the Hugging Face Inference API (`meta-llama/Llama-3.1-8B-Instruct`) to generate creative and practical recipes.
 - **Markdown Rendering:** Recipes are beautifully formatted and rendered using Markdown.
 
+## Screenshot
+
+![Chef CLaude SS](image.png)
+
 ## Technologies Used
 
 - React (with Vite)
@@ -47,7 +51,3 @@ VITE_HF_API_KEY=your_hugging_face_api_key_here
 ```bash
 npm run dev
 ```
-
-### 5. Screenshot
-
-![Chef CLaude SS](image.png)
