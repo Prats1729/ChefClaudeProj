@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    gap: 15px;
+
+}
+
+.chef-claude-icon{
+    height: 52px;
+    width: 43px;
+}
+
+.title{
+    font-size: 32px;
+}
