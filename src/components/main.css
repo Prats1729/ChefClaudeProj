@@ -1,0 +1,41 @@
+.main-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.main-form input{
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 399px;
+    box-sizing: border-box;
+    padding: 12px;
+    height: 38px;
+    width: 399px;
+    border-radius: 6px;
+    border: solid;
+    border-width: 1px;
+    border-color: #D1D5DB;
+}
+
+.main-form input::placeholder{
+    padding-left: 10px;
+}
+
+.main-form button{
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 183px;
+    border-radius: 6px;
+    border: solid;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: #D1D5DB;
+}
+
+main{
+    padding-top: 70px;
+
+}
